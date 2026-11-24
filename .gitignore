@@ -1,0 +1,53 @@
+# Environment variables and secrets (in any project folder)
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+
+# Python artifacts
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/*.so
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+
+# Virtual Environments (in any project folder)
+**/venv/
+**/.venv/
+**/env/
+**/ENV/
+
+# Node / JS / Web frontends (in any project folder)
+**/node_modules/
+**/.next/
+**/dist/
+**/build/
+**/.turbo/
+
+# Databases & Vector Stores
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+**/chroma_db/
+**/.chroma/
+**/faiss_index/
+**/lancedb/
+**/qdrant_storage/
+
+# Logs & temporary files
+**/logs/
+**/*.log
+**/.cache/
+**/tmp/
+**/temp/
+
+# OS and Editor artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
